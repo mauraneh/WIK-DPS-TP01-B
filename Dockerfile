@@ -10,7 +10,7 @@ RUN cargo build --release
 
 
 ## stage 2
-FROM debian:buster
+FROM debian:stable-slim 
 
 RUN useradd -m mon_user
 
